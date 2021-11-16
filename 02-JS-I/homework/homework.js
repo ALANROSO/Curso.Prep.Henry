@@ -7,7 +7,12 @@ const nuevaString = 'Hola';
 var numero = 25;
 
 // Crea una variable booleana:
-const nuevoBool = null;ñ
+function ingresoSupermercado(Horas) { 
+  if (Horas > 8) {
+      return true;
+  }
+  return false;
+}
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - null === 5;
